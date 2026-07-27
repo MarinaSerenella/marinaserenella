@@ -6,11 +6,21 @@
   <title>Contatti Marina Serenella | Darsena e cantiere nautico a Murano</title>
   <meta name="description" content="Contatti Marina Serenella a Murano: richiedi disponibilità posti barca, rimessaggio, riparazioni, verniciatura e meccanica nautica.">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="alternate" hreflang="it" href="contatti.html">
-  <link rel="alternate" hreflang="en" href="en/contatti.html">
-  <link rel="alternate" hreflang="de" href="de/contatti.html">
-  <link rel="alternate" hreflang="fr" href="fr/contatti.html">
-  <link rel="alternate" hreflang="x-default" href="contatti.html">
+
+  <link rel="canonical" href="https://www.marinaserenella.it/contatti.html">
+  <link rel="alternate" hreflang="it" href="https://www.marinaserenella.it/contatti.html">
+  <link rel="alternate" hreflang="en" href="https://www.marinaserenella.it/en/contatti.html">
+  <link rel="alternate" hreflang="de" href="https://www.marinaserenella.it/de/contatti.html">
+  <link rel="alternate" hreflang="fr" href="https://www.marinaserenella.it/fr/contatti.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.marinaserenella.it/contatti.html">
+  <meta property="og:title" content="Contatti Marina Serenella | Darsena e cantiere nautico a Murano">
+  <meta property="og:description" content="Contatti Marina Serenella a Murano: richiedi disponibilità posti barca, rimessaggio, riparazioni, verniciatura e meccanica nautica.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.marinaserenella.it/contatti.html">
+  <meta property="og:image" content="https://www.marinaserenella.it/site/assets/files/1906/topview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contatti Marina Serenella | Darsena e cantiere nautico a Murano">
+  <meta name="twitter:description" content="Contatti Marina Serenella a Murano: richiedi disponibilità posti barca, rimessaggio, riparazioni, verniciatura e meccanica nautica.">
 </head>
 <body>
 <a class="skip-link" href="#contenuto">Vai al contenuto</a>
@@ -18,7 +28,7 @@
   <div class="wrap">
     <div>Sacca Serenella, 9 - 30141 Murano (VE)</div>
     <div class="topbar-actions">
-      <span><a href="tel:+39041736984">+39 041 73 69 84</a> &nbsp;|&nbsp; <a href="mailto:info@marinaserenella.it">info@marinaserenella.it</a></span>
+      <span><a href="tel:+39041736984">+39 041 73 69 84</a> &nbsp;|&nbsp; <a href="javascript:void(0)" class="js-email" data-u="info" data-d="marinaserenella.it">info [at] marinaserenella.it</a></span>
       
       <div class="language-switcher">
         <label for="language-select-contatti-html-it">Lingua</label>
@@ -60,35 +70,38 @@
       <span class="kicker">Recapiti</span>
       <h2>Parla con Marina Serenella.</h2>
       <p><strong>Cantiere Motonautico MARINA SERENELLA S.R.L</strong><br>Sacca Serenella, 9 - 30141 Murano (VE)</p>
-      <p>Telefono: <a href="tel:+39041736984">+39 041 73 69 84</a><br>Telefono: <a href="tel:+39041736526">+39 041 73 65 26</a><br>Email: <a href="mailto:info@marinaserenella.it">info@marinaserenella.it</a></p>
-      <a class="btn btn-dark" href="https://www.google.com/maps/search/?api=1&query=Sacca+Serenella+9+30141+Murano+VE">Apri indicazioni</a>
-      <p class="notice" style="margin-top:1rem;">Nel sito definitivo si può inserire qui una mappa incorporata e gli orari di apertura aggiornati.</p>
+      <p>Telefono: <a href="tel:+39041736984">+39 041 73 69 84</a><br>Telefono: <a href="tel:+39041736526">+39 041 73 65 26</a><br>Email: <a href="javascript:void(0)" class="js-email" data-u="info" data-d="marinaserenella.it">info [at] marinaserenella.it</a></p>
+      <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Sacca+Serenella+9+30141+Murano+VE">Apri indicazioni</a>
+      <p class="notice" style="margin-top:1rem;">Orari di apertura: Lunedì - Sabato: 08:00 - 18:00 | Domenica: Chiuso</p>
     </div>
     <div class="card">
       <span class="kicker">Modulo preventivo</span>
       <h2>Richiedi informazioni</h2>
       <p class="section-intro">Questo modulo è più completo rispetto a quello attuale: raccoglie i dati utili per rispondere più rapidamente.</p>
-      <form class="form-grid" action="#" method="post">
-        <div><label for="nome-it">Nome e cognome</label><input id="nome-it" name="nome" autocomplete="name"></div>
+      <form class="form-grid" name="contact-it" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact-it">
+        <div class="netlify-bot-container" style="display: none;">
+          <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+        </div>
+        <div><label for="nome-it">Nome e cognome</label><input id="nome-it" name="nome" autocomplete="name" required></div>
         <div><label for="telefono-it">Telefono</label><input id="telefono-it" name="telefono" autocomplete="tel"></div>
-        <div><label for="email-it">Email</label><input id="email-it" name="email" type="email" autocomplete="email"></div>
+        <div><label for="email-it">Email</label><input id="email-it" name="email" type="email" autocomplete="email" required></div>
         <div><label for="servizio-it">Servizio richiesto</label><select id="servizio-it" name="servizio"><option>Posto barca</option><option>Rimessaggio / deposito</option><option>Riparazione</option><option>Verniciatura</option><option>Meccanica nautica</option><option>Altro</option></select></div>
         <div><label for="barca-it">Tipo di barca</label><input id="barca-it" name="barca"></div>
         <div><label for="lunghezza-it">Lunghezza</label><input id="lunghezza-it" name="lunghezza"></div>
         <div class="full"><label for="messaggio-it">Messaggio</label><textarea id="messaggio-it" name="messaggio"></textarea></div>
-        <div class="full"><label><input type="checkbox" name="privacy" style="width:auto; min-height:auto; margin-right:.45rem;"> Acconsento al trattamento dei dati personali.</label></div>
-        <div class="full"><button class="btn btn-dark" type="submit">Invia richiesta</button></div>
+        <div class="full"><label><input type="checkbox" name="privacy" style="width:auto; min-height:auto; margin-right:.45rem;" required> Acconsento al trattamento dei dati personali ai sensi della <a href="privacy-policy.html" target="_blank" style="color:var(--blue-700); text-decoration:underline;">Privacy Policy</a>.</label></div>
+        <div class="full"><button class="btn btn-primary" type="submit">Invia richiesta</button></div>
       </form>
-      <p class="notice">Nota tecnica: il form è statico e va collegato al sistema di invio del sito/CMS.</p>
+      
     </div>
   </div>
 </section>
 </main>
 <section class="section tight">
-  <div class="section">
-    <div class="band">
+  <div class="band">
       <div>
-        <span class="kicker" style="color: rgba(255,255,255,.7);">Preventivi e disponibilità</span>
+        <span class="kicker light">Preventivi e disponibilità</span>
         <h2>Hai bisogno di assistenza per la tua barca?</h2>
         <p>Contatta Marina Serenella per posti barca, rimessaggio, deposito, verniciatura, riparazioni o manutenzione meccanica.</p>
       </div>
@@ -96,8 +109,6 @@
         <a class="btn btn-primary" href="tel:+39041736984">Chiama ora</a>
         <a class="btn btn-outline" href="contatti.html">Richiedi informazioni</a>
       </div>
-    </div>
-  </div>
 </section>
 <footer class="footer">
   <div class="wrap">
@@ -110,7 +121,7 @@
       <ul>
         <li><a href="tel:+39041736984">+39 041 73 69 84</a></li>
         <li><a href="tel:+39041736526">+39 041 73 65 26</a></li>
-        <li><a href="mailto:info@marinaserenella.it">info@marinaserenella.it</a></li>
+        <li><a href="javascript:void(0)" class="js-email" data-u="info" data-d="marinaserenella.it">info [at] marinaserenella.it</a></li>
         <li><a href="https://www.google.com/maps/search/?api=1&query=Sacca+Serenella+9+30141+Murano+VE">Indicazioni stradali</a></li>
       </ul>
     </div>
@@ -124,9 +135,17 @@
         <li><a href="meccanica-nautica.html">Meccanica nautica</a></li>
       </ul>
     </div>
+    <div>
+      <h3>Legale</h3>
+      <ul>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="cookie-policy.html">Cookie Policy</a></li>
+      </ul>
+    </div>
   </div>
 </footer>
 <a class="mobile-call" href="tel:+39041736984">Chiama Marina Serenella</a>
 
+<script src="assets/js/main.js" defer></script>
 </body>
 </html>
